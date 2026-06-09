@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Fichier d'environnement / données sensibles
+.env
+
+# Logs
+*.log
+
+# Dossiers temporaires
+tmp/
+cache/
+
+# Dépendances éventuelles
+node_modules/
+vendor/
