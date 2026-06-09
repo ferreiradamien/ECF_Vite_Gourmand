@@ -93,6 +93,50 @@ body {
     gap: 1rem;
 }
 
+.filters,
+.menu-card,
+.menu-detail,
+.form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border: 1px solid #ead8c8;
+}
+
+.menus-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.8rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.warning {
+    background-color: #fff1d6;
+    border-left: 4px solid #d97b29;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .menus-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
